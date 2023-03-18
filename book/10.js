@@ -1,0 +1,11 @@
+var landMarks = [];
+landMarks.push("Мой дом.");
+landMarks.push("Дорожка к дому.");
+landMarks.push("Мигающий фонарь.");
+landMarks.push("Протекающий гидрант.");
+landMarks.push("Пожарная станция.");
+landMarks.push("Приют для кошек.");
+landMarks.push("Моя бывшая школа.");
+landMarks.push("Дом подруги.");
+landMarks;
+landMarks.pop();
