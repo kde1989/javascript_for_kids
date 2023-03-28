@@ -1,3 +1,6 @@
+let pickRandomWord = function (words) {
+    return words[Math.floor(Math.random() * words.length)];
+};
 let generateRandomInsult = function () {
     let randomBodyParts = ["глаз", "нос", "череп"];
     let randomAdjectives = ["вонючая", "унылая", "дурацкая"];
