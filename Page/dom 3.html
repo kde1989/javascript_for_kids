@@ -6,12 +6,16 @@
 </head>
 
 <body>
-<h1 id="main-heading">Привет, мир!</h1>
 
+<h1 id="main-heading">Привет, мир!</h1>
+<p>Это новый параграф!</p>
 <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
 
 <script>
-  $("h1").text("Этот текст скоро исчезнет").fadeOut(3000).fadeIn(2000);
+  for (let i = 0; i < 5; i++) {
+    $("h1").fadeOut(1000);
+    $("h1").fadeIn(1000);
+  };
 </script>
 </body>
 </html>
