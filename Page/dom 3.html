@@ -17,7 +17,7 @@
     let myFriends = ["Алекс", "Витёк", "Вадик"];
      for (let i = 0; i < myFriends.length; i++) {
        $("body").append("<p>" + myFriends[i] + "</p>");
-       $("p").hide().fadeIn(3000);
+       $("p").last().hide().delay((i + 1) * 300).fadeIn(2000);
      }
      $("p").append(" лучший!");
 </script>
