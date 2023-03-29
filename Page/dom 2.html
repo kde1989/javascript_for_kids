@@ -13,6 +13,11 @@
 <script>
   let newHeadingText = prompt("Введите новый заголовок:");
   $("#main-heading").text(newHeadingText);
+  $("body").append("<p>Это новый параграф</p>");
+  for (let i = 0; i < 3; i++) {
+    let hobby = prompt("Назови одно из своих хобби!")
+    $("body").append("<p>" + hobby + "</p>");
+  }
 </script>
 </body>
 </html>
